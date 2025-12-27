@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Luxon + Bootstrap</title>
+    <link rel="icon" href="data:," />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row min-vh-100">
+        <div class="col-2"></div>
+
+        <div class="col-8 d-flex align-items-start">
+          <div class="w-100 py-4">
+            <button
+              id="showTimeBtn"
+              type="button"
+              class="btn btn-danger btn-lg w-100 time-btn"
+            >
+              Показать время
+            </button>
+          </div>
+        </div>
+
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="timeModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Выполнил: Арсений Суржицкий</h5>
+            <button id="closeX" type="button" class="btn-close" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body text-center">
+            <div id="timeText" class="display-5 fw-semibold"></div>
+          </div>
+
+          <div class="modal-footer">
+            <button id="closeBtn" type="button" class="btn btn-secondary">
+              Закрыть
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
