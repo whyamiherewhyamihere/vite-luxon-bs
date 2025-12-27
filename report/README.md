@@ -14,11 +14,12 @@ https://whyamiherewhyamihere.github.io/vite-luxon-bs/
 - Total: 210 472 bytes (~210.47 kB)
 
 ## Скриншоты
+
 ### UI
-![UI](./report/ui.jpg)
+![UI](./ui.jpg)
 
 ### Код
-![index.html](./report/code_index.jpg)
-![src/main.js](./report/code_main.jpg)
-![src/styles.scss](./report/code_styles.jpg)
+![index.html](./code_index.jpg)
+![src/main.js](./code_main.jpg)
+![src/styles.scss](./code_styles.jpg)
 
